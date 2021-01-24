@@ -18,7 +18,7 @@ if(iceCream === 'チョコレート') {
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'firefox-logo.png') {
-      myImage.setAttribute ('src','neko-icon.png');
+      myImage.setAttribute ('src','neko-icon.jpg');
     } else {
       myImage.setAttribute ('src','firefox-logo.png');
     }
